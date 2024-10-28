@@ -2,6 +2,10 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+-- Minimal number of columns to use for the line number.
+vim.cmd("set numberwidth=1")
+vim.cmd("set signcolumn=no")
+
 local opt = vim.opt
 
 -- gives block cursor in insert mode

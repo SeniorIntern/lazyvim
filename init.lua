@@ -9,8 +9,5 @@ vim.g.netrw_winsize = 25
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
--- Minimal number of columns to use for the line number.
-vim.cmd("set numberwidth=1")
-
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
